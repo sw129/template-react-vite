@@ -1,0 +1,23 @@
+.template {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+}
+
+.button-content {
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+
+.template:disabled {
+    cursor: not-allowed;
+}
+
+.template[data-loading="true"] {
+    cursor: progress;
+}

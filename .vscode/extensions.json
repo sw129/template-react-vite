@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "stylelint.vscode-stylelint",
+        "dbaeumer.vscode-eslint",
+        "rvest.vs-code-prettier-eslint",
+        "esbenp.prettier-vscode",
+        "iceworks-team.iceworks-style-helper"
+    ]
+}
