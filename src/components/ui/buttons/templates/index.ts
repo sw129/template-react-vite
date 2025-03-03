@@ -1,14 +1,13 @@
 import ButtonTemplate, {
-	ButtonTemplateCommonProps,
-	ButtonTemplateProps
-} from "./buttonTemplate/ButtonTemplate";
-
+  ButtonTemplateCommonProps,
+  ButtonTemplateProps,
+} from './buttonTemplate/ButtonTemplate'
 
 export {
-	ButtonTemplate,
-};
+  ButtonTemplate,
+}
 
 export type {
-	ButtonTemplateCommonProps,
-	ButtonTemplateProps,
-};
+  ButtonTemplateCommonProps,
+  ButtonTemplateProps,
+}

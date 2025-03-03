@@ -1,4 +1,4 @@
-import React, {type CSSProperties,type ReactNode, useRef} from 'react';
+import {type CSSProperties,type ReactNode, useRef} from 'react';
 
 // ToDo
 // import Loader from '../../../../Loader/Loader';
@@ -28,7 +28,7 @@ export type ButtonTemplateProps = {
 	className?: string;
 } & ButtonTemplateCommonProps;
 
-const ButtonTemplate: React.FC<ButtonTemplateProps> = ({
+const ButtonTemplate= ({
 	onClick,
 	className,
 	// tooltipMessage,
@@ -41,7 +41,7 @@ const ButtonTemplate: React.FC<ButtonTemplateProps> = ({
 	isActive,
 	disable,
 	...props
-}) => {
+}: ButtonTemplateProps) => {
 	const buttonRef = useRef<HTMLButtonElement>(null);
 
 	return (
